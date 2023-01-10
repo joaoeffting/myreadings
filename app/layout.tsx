@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "./Header";
 import "../styles/globals.css";
 
 export default function RootLayout({
@@ -9,7 +10,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className="text-blue-500">{children}</body>
+      <body>
+        <Header />
+        <div className="pl-10 bg-slate-600">{children}</div>
+      </body>
     </html>
   );
 }
