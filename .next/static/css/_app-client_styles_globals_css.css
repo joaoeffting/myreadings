@@ -471,15 +471,6 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.sticky {
-  position: sticky;
-}
-.mr-10 {
-  margin-right: 2.5rem;
-}
-.ml-10 {
-  margin-left: 2.5rem;
-}
 .ml-5 {
   margin-left: 1.25rem;
 }
@@ -496,9 +487,5 @@ video {
 }
 .pl-10 {
   padding-left: 2.5rem;
-}
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
